@@ -15,7 +15,7 @@
         <img class="avatar" :src="_checkImgUrl(store.userinfo.cover_url[0].url_list[0])" alt="" />
       </div>
 
-      <span class="name">ZZZZZZZZZZ</span>
+      <span class="name">广告位 全方位关注你的抖音</span>
       <span class="notice">抖音扫一扫，立即关注我</span>
     </div>
     <div class="footer">
