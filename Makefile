@@ -11,6 +11,6 @@ docker-buildx-build:
 	docker buildx build --platform linux/amd64 . -t $(PKG):$(VERSION) --load
 
 docker-run:
-	docker run -d -p 80:80 $(PKG):$(VERSION)
+	docker run -d -p 8088:80 $(PKG):$(VERSION)
 
 docker-build-run: docker-build docker-run
